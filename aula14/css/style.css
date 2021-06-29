@@ -100,6 +100,49 @@ footer{
     font-size: 20px;    
 }
 
+/* FALE CONOSCO */
 h1{
     text-align: center;
+}
+
+#esp{
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nomeEmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.mensagem{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.pai{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+input{
+    width: 300px;
+}
+
+#termos{
+    background-color: #ffb90f;
+    border-radius: 8px;
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+}
+
+#check{
+    display: flex;
+    flex-direction: row;
 }

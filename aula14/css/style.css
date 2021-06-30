@@ -134,15 +134,23 @@ input{
     width: 300px;
 }
 
-#termos{
+#bt{
     background-color: #ffb90f;
     border-radius: 8px;
     width: 90px;
     height: 35px;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 #check{
     display: flex;
     flex-direction: row;
+}
+
+.termos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
 }

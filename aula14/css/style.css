@@ -154,3 +154,8 @@ input{
     justify-content: flex-start;
     margin-top: 10px;
 }
+
+.paiTermos{
+    display: flex;
+    flex-direction: column;
+}
